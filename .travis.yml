@@ -20,10 +20,3 @@ script:
   - ./test/run-tests.sh             #< Test (PhantomJS)
   - ./test/run-tests-ghostdriver.sh #< Test (GhostDriver / PhantomJSDriver)
 
-notifications:
-  irc:
-    channels:
-      - "irc.freenode.org#phantomjs"
-    on_success: always
-    on_failure: always
-    use_notice: true
